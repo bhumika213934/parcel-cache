@@ -1,15 +1,22 @@
 {
   "name": "igniting-our-app",
   "version": "1.0.0",
-  "description": "nope",
-  "license": "ISC",
-  "author": "bhumika",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  
   "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
     "parcel": "^2.16.4"
   }
+  
 }
