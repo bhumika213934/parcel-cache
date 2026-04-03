@@ -1,0 +1,15 @@
+{
+  "name": "igniting-our-app",
+  "version": "1.0.0",
+  "description": "nope",
+  "license": "ISC",
+  "author": "bhumika",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
