@@ -65,4 +65,26 @@ let u = y[1].charAt(0);
 console.log(u);
 let o = k+u;
 console.log(o);
+// 10
+let task = ["I am drinking water","I am painting","I am studying"];
+// task.pop();
+// console.log(task);
+// task.pop();
+// console.log(task);
+let newtast = task.splice(1,2);
+console.log(newtast);
+let newesttask = task.concat(newtast);
+console.log(newesttask);
+
+// 13
+const user = {
+    "name" : "gemini",
+    identify : function (){
+        console.log(this.name);
+        
+    }
+};
+const outsider = user.identify;
+user.identify();
+outsider();
 
