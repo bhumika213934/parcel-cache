@@ -1,3 +1,24 @@
+/**
+ * header
+ *   -logo
+ *   -nav items
+ * body
+ *  -search bar
+ *  -resturant list
+ *       -card
+ *         --img
+ *           name
+ *           cuisine
+ *           address
+ *           price
+ *           distance
+ *           rating
+ * footer
+ *   related link
+ *   copy right
+ *
+ */
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Headercomponent from "./components/header";

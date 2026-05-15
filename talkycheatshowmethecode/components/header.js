@@ -1,21 +1,22 @@
-const Logo = () => {
-  return <h1>Wiggy</h1>;
+import Logo from "url:./logo.jpeg";
+const Title = () => {
+  return <img src={Logo} className="imgg" />;
 };
 const Headercomponent = () => {
   return (
-    <>
-      <Logo />
+    <div className="header">
+      <Title />
       <Navbar />
-      <Auth />
-    </>
+    </div>
   );
 };
 export const Navbar = () => {
   return (
-    <ul>
+    <ul className="nav">
       <li>Home</li>
       <li>About</li>
       <li>Contact</li>
+      <li>cart</li>
     </ul>
   );
 };

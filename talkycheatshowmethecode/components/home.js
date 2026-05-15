@@ -1,7 +1,10 @@
+import ResturantList from "./ResturantList";
+import SearchBar from "./searchbar";
 const Home = () => {
   return (
     <div>
-      <h1>home</h1>
+      <SearchBar />
+      <ResturantList />
     </div>
   );
 };

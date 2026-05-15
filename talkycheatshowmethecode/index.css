@@ -1,3 +1,72 @@
-.BHUMIKA{
-    background-color: rgb(142, 165, 42);
+
+.imgg{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+#jq_search
+			{
+				text-align:center;
+				margin:48px 0;
+			}
+			
+				#jq_search input[type="search"]
+				{
+					padding:12px;
+					width:305px;
+					height:48px;
+				}
+				
+				#jq_search input[type="submit"]
+				{
+					width:68px;
+					height:48px;
+					background:#333 
+                     no-repeat top right;
+					border:none;
+					cursor:pointer;
+					padding:0;
+					opacity:0.5;
+					transtion:0.4s;
+            color:#EEE;
+				}
+				
+				#jq_search input[type="submit"] + input
+				{
+					background-position:top left;
+				}
+				
+				#jq_search input[type="submit"]:hover
+				{
+					opacity:1;
+				}
+.resturantlist {
+    display: flex;
+    gap: 2%;
+    grid-template-columns: repeat(4,1r);
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin: 0%;
+}
+.card {
+width: 23.5%;
+margin-bottom: 30px;
+}
+.card img{
+    overflow: hidden;
+    width: 100%;
 }
